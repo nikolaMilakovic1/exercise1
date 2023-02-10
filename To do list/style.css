@@ -1,0 +1,22 @@
+.item-description{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#add-el{
+    
+    padding: 8px, 16px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    height: 40px;
+}
+.item-completed:checked + .item-description {
+    text-decoration: line-through;
+    background: #dddd
+   
+    
+}
+
